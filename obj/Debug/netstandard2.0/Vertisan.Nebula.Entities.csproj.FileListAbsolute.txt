@@ -1,0 +1,9 @@
+C:\GitHub\nebula-entities-v1\bin\Debug\netstandard2.0\Vertisan.Nebula.Entities.deps.json
+C:\GitHub\nebula-entities-v1\bin\Debug\netstandard2.0\Vertisan.Nebula.Entities.dll
+C:\GitHub\nebula-entities-v1\bin\Debug\netstandard2.0\Vertisan.Nebula.Entities.pdb
+C:\GitHub\nebula-entities-v1\obj\Debug\netstandard2.0\Vertisan.Nebula.Entities.csprojAssemblyReference.cache
+C:\GitHub\nebula-entities-v1\obj\Debug\netstandard2.0\Vertisan.Nebula.Entities.csproj.CoreCompileInputs.cache
+C:\GitHub\nebula-entities-v1\obj\Debug\netstandard2.0\Vertisan.Nebula.Entities.AssemblyInfoInputs.cache
+C:\GitHub\nebula-entities-v1\obj\Debug\netstandard2.0\Vertisan.Nebula.Entities.AssemblyInfo.cs
+C:\GitHub\nebula-entities-v1\obj\Debug\netstandard2.0\Vertisan.Nebula.Entities.dll
+C:\GitHub\nebula-entities-v1\obj\Debug\netstandard2.0\Vertisan.Nebula.Entities.pdb

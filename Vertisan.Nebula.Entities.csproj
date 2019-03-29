@@ -1,0 +1,44 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Company>Vertisan Inc</Company>
+    <Product>Vertisan(R) Nebula POCO Entities</Product>
+    <Description>This client library contains POCO object definitions for the entities used in data transfer associated with the Nebula platform.</Description>
+    <Copyright>©2014-2019 Vertisan Inc. All rights reserved.</Copyright>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <ClientVersion>1.0.0.2-preview</ClientVersion>
+    <DirectVersion>1.0.0.2-preview</DirectVersion>
+    <Version Condition=" '$(IsNightly)' == '1' ">$(ClientVersion)-nightly$(CurrentDate)</Version>
+    <Version Condition=" '$(IsNightly)' == '0' Or '$(IsNightly)' == '' ">$(ClientVersion)</Version>
+    <FileVersion>$(VersionPrefix)</FileVersion>
+    <Authors>Vertisan</Authors>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <AssemblyName>Vertisan.Nebula.Entities</AssemblyName>
+    <Title>Vertisan Nebula POCO Entities</Title>
+    <PackageId>Vertisan.Nebula.Entities</PackageId>
+    <PackageTags>vertisan;nebula;vnebula;vertisan nebula;nebulaofficial</PackageTags>
+    <PackageReleaseNotes>The change log for this SDK is made available at https://github.com/vNebula/nebula-entities-v1/blob/master/changelog.md at the time of release.</PackageReleaseNotes>
+    <PackageLicenseUrl>https://api.nebula.social/dotnet-sdk-eula</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/vNebula/nebula-entities-v1</PackageProjectUrl>
+    <PackageIconUrl>https://nebula.social/images/nuget_icon.png</PackageIconUrl>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <GenerateDocumentationFile>false</GenerateDocumentationFile>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ShippingScope>External</ShippingScope>
+    <SigningType>Product</SigningType>
+    <DebugType>portable</DebugType>
+    <IncludeSymbols>false</IncludeSymbols>
+    <IncludeSource>false</IncludeSource>
+    <CurrentDate>$([System.DateTime]::Now.ToString(yyyyMMdd))</CurrentDate>
+    <RootNamespace>Vertisan.Nebula.Entities</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="10.0.2" />
+  </ItemGroup>
+
+</Project>

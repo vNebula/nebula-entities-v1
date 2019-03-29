@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Vertisan.Nebula.Entities</id>
+    <version>1.0.0.2-preview</version>
+    <title>Vertisan Nebula POCO Entities</title>
+    <authors>Vertisan</authors>
+    <owners>Vertisan</owners>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <licenseUrl>https://api.nebula.social/dotnet-sdk-eula</licenseUrl>
+    <projectUrl>https://github.com/vNebula/nebula-entities-v1</projectUrl>
+    <iconUrl>https://nebula.social/images/nuget_icon.png</iconUrl>
+    <description>This client library contains POCO object definitions for the entities used in data transfer associated with the Nebula platform.</description>
+    <releaseNotes>The change log for this SDK is made available at https://github.com/vNebula/nebula-entities-v1/blob/master/changelog.md at the time of release.</releaseNotes>
+    <copyright>©2014-2019 Vertisan Inc. All rights reserved.</copyright>
+    <tags>vertisan nebula vnebula vertisan nebula nebulaofficial</tags>
+    <dependencies>
+      <group targetFramework=".NETStandard2.0">
+        <dependency id="Newtonsoft.Json" version="10.0.2" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="C:\GitHub\nebula-entities-v1\bin\Release\netstandard2.0\Vertisan.Nebula.Entities.dll" target="lib\netstandard2.0\Vertisan.Nebula.Entities.dll" />
+  </files>
+</package>
